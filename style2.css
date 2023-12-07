@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.card{
+    width: 12%;
+    height: 45vh;
+    min-width: 150px;
+    min-height: 280px;
+        /* background-color: #3DCFD3; */
+    margin-right: 5rem;
+    margin-top: 2rem;
+    border: 1px solid transparent;
+    border-radius: .2cm;
+    /* transform: rotateY(180deg); */
+    /* position: absolute; */
+}
+ .card:hover{
+    transform: scale(1.1);
+    /* transform: rotateY(180deg); */
+    transition: all .5s ease;
+    cursor: grab;
+ } 
+ .flex-wrap{
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+ }
+ 
